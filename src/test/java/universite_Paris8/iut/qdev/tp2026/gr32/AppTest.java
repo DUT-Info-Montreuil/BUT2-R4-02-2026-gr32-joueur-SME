@@ -1,4 +1,4 @@
-package org.example;
+package universite_Paris8.iut.qdev.tp2026.gr32;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
