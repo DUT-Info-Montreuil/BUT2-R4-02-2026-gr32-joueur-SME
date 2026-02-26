@@ -17,5 +17,15 @@ public class JoueurDTO {
         this.langueDTO = langueDTO;
     }
 
+    public String getPrenom() {return this.prenom;}
+    public String getPseudo() {return this.pseudo;}
+    public int getAnnéeDeNaissance() {return this.annéeDeNaissance;}
+    public ArrayList<String> getCentreDinteret() {return this.centreDinteret;}
+    public LangueDTO getLangueDTO() {return this.langueDTO;}
 
+    public void setPrenom(String prenom) {this.prenom = prenom;}
+    public void setPseudo(String pseudo) {this.pseudo = pseudo;}
+    public void setAnnéeDeNaissance(int annéeDeNaissance) {this.annéeDeNaissance = annéeDeNaissance;}
+    public void setCentreDinteret(ArrayList<String> centreDinteret) {this.centreDinteret = centreDinteret;}
+    public void setLangueDTO(LangueDTO langueDTO) {this.langueDTO = langueDTO;}
 }
