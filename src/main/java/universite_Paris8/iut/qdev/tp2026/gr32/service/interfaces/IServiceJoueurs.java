@@ -7,4 +7,5 @@ import java.util.ArrayList;
 
 public interface IServiceJoueurs {
     public JoueurDTO ajouterUtilisateur(String prenom, String pseudo, String anneeDeNaissance, ArrayList<String> centreDinteret, LangueDTO langueDTO);
+    public ArrayList<JoueurDTO> liste_joueurs();
 }
