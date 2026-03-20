@@ -1,11 +1,11 @@
 package universite_Paris8.iut.qdev.tp2026.gr32.service.interfaces;
 
 import universite_Paris8.iut.qdev.tp2026.gr32.commons.dtos.JoueurDTO;
-import universite_Paris8.iut.qdev.tp2026.gr32.commons.dtos.LangueDTO;
+import universite_Paris8.iut.qdev.tp2026.gr32.commons.dtos.LangueEnum;
 
 import java.util.ArrayList;
 
 public interface IServiceJoueurs {
-    public JoueurDTO ajouterUtilisateur(String prenom, String pseudo, String anneeDeNaissance, ArrayList<String> centreDinteret, LangueDTO langueDTO);
+    public JoueurDTO ajouterUtilisateur(String prenom, String pseudo, String anneeDeNaissance, ArrayList<String> centreDinteret, LangueEnum langueEnum);
     public ArrayList<JoueurDTO> liste_joueurs();
 }
